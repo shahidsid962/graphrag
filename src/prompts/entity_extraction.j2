@@ -1,0 +1,21 @@
+Extract entities and relationships from the following text:
+
+Text: {{ text }}
+
+Return the result in JSON format with the following structure:
+{
+  "entities": [
+    {
+      "name": "entity name",
+      "type": "entity type",
+      "description": "entity description"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "source entity name",
+      "target": "target entity name",
+      "relationship": "relationship description"
+    }
+  ]
+}

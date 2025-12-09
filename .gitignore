@@ -1,0 +1,57 @@
+```
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+.ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+*.so
+*.dylib
+*.dll
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+*.pyc.*
+__pycache__/
+
+# Distribution / packaging
+.Python
+*.egg-info/
+.installed.cfg
+*.egg-info/
+*.dist-info/
+
+# Pytest
+.pytest_cache/
+```
