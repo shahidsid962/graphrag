@@ -1,0 +1,12 @@
+Based on the following query and relevant graph context, provide a comprehensive answer:
+
+Query: {{ query }}
+
+Graph Context:
+{% for node in relevant_nodes %}
+- Node: {{ node['content'] }}
+  Type: {{ node['type'] }}
+  Relationships: {{ node['relationships'] }}
+{% endfor %}
+
+Please provide a detailed response based on the graph context that addresses the query.
